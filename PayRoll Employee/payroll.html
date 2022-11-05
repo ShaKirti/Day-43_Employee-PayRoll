@@ -24,8 +24,30 @@
             <div class="info">
                 <form action="#" class="form" onsubmit="save(); return false">
                     <div class="row-content">
-                        <label for="name" class="label-text">Name:</label>
-                        <input type="text" name="name" id="name" class="input" placeholder="Your name" required>
+                        <div class="name">
+                            <label for="name" class="label-text">Name:</label>
+                            <input type="text" name="name" id="name" class="input" placeholder="Your name" required><br>
+                        </div>
+                        
+                        <div class="profile-radio-content">
+                            <label for="profile" class="label-text">Profile Image:</label>
+                            <label for="" style="padding: 0 40px;">
+                                <input type="radio" name="profile" id="profile1" value="../images & logos/profileimage1.png" required>
+                                <img src="../images & logos/profileimage1.png" alt="" class="profile" id="image1">
+                            </label>
+                            <label for="">
+                                <input type="radio" name="profile" id="profile2" value="../images & logos/profileimage2.png" required>
+                                <img src="../images & logos/profileimage2.png" alt="" class="profile" id="image2">
+                            </label>
+                            <label for="" style="padding: 0 9px;">
+                                <input type="radio" name="profile" id="profile3" value="../images & logos/profileimage3.png" required>
+                                <img src="../images & logos/profileimage3.png" alt="" class="profile" id="image3">
+                            </label>
+                            <label for="">
+                                <input type="radio" name="profile" id="profile4" value="../images & logos/profileimage4.png" required>
+                                <img src="../images & logos/profileimage4.png" alt="" class="profile" id="image4">
+                            </label>
+                        </div>
                     </div>
                 </form>
             </div>
