@@ -10,6 +10,7 @@ body{
     background-color: rgba(245, 214, 214, 0.767);
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
+    font-size: large;
 }
 
 /* Employee payroll div */
@@ -45,4 +46,21 @@ div>span{
     padding: 2em;
     padding-left: 11em;
     text-align: left;
+}
+
+
+/* Form information styling */
+
+.info{
+    margin-top: 2.2em;
+}
+.label-text{
+    font-weight: lighter;
+    font-size: medium;
+}
+#name{
+    margin-left: 3.2em;
+    width: 44vw;
+    height: 5.8vh;
+    border-radius: 5px;
 }
