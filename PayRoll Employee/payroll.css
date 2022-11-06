@@ -83,3 +83,61 @@ div>span{
     border-radius: 50%;
     margin-left: 22px;
 }
+
+/* Gender images styling */
+.gender-content{
+    margin-top: 2.5em;
+}
+
+.gender{
+    width: 52px;
+    border-radius: 50%;
+    margin-left: 22px;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+#gender1{
+    margin-left: 6em;
+}
+#gender2{
+    margin-left: 88px;
+}
+#img1{
+    margin: -12px 8px;
+    height: 43px;
+}
+#img2{
+    margin: -13px 8px;
+}
+
+/* Department styling */
+.department-content{
+    display: flex;
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto'; */
+    font-weight: lighter;
+}
+.depart{
+    padding: 0 3.2rem;
+}
+.text{
+    padding-right: 16px;
+}
+
+/* Salary content styling */
+
+.salary-content{
+    display: flex;
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto'; */
+    font-weight: lighter;
+}
+#salary{
+    margin-left: 20px;
+}
+.salary-output{
+    padding-left: 24px;
+}

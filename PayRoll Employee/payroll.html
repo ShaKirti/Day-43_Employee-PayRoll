@@ -32,6 +32,7 @@
                         <div class="profile-radio-content">
                             <label for="profile" class="label-text">Profile Image:</label>
                             <label for="" style="padding: 0 40px;">
+                                <!-- we are putting name="profile" same for every option because we want to check one option at a time. -->
                                 <input type="radio" name="profile" id="profile1" value="../images & logos/profileimage1.png" required>
                                 <img src="../images & logos/profileimage1.png" alt="" class="profile" id="image1">
                             </label>
@@ -47,6 +48,38 @@
                                 <input type="radio" name="profile" id="profile4" value="../images & logos/profileimage4.png" required>
                                 <img src="../images & logos/profileimage4.png" alt="" class="profile" id="image4">
                             </label>
+                        </div>
+                        <div class="gender-content">
+                            <label for="Gender" class="label-text">Gender:</label>
+                            <label for="">
+                                <!-- we are putting name="gender" same for every option because we want to check one option at a time. -->
+                                <input type="radio" name="gender" id="gender1" value="../images & logos/genderM.png" required>
+                                <img src="../images & logos/genderM.png" alt="Male" class="gender" id="img1">
+                            </label>
+                            <label for="">
+                                <input type="radio" name="gender" id="gender2" value="../images & logos/genderF.png" required>
+                                <img src="../images & logos/genderF.png" alt="Male" class="gender" id="img2">
+                            </label>
+                        </div>
+                        <div class="department-content">
+                            <label for="Department" class="label-text">Department:</label>
+                            <div class="depart">
+                                <input type="checkbox" class="checkbox" id="hr" name="hr" value="HR">
+                                <label for="hr" class="text">HR</label>
+                                <input type="checkbox" class="checkbox" id="sales" name="sales" value="Sales">
+                                <label for="sales" class="text">Sales</label>
+                                <input type="checkbox" class="checkbox" id="finance" name="finance" value="Finance">
+                                <label for="finance" class="text">Finance</label>
+                                <input type="checkbox" class="checkbox" id="engineer" name="engineer" value="Engineer">
+                                <label for="engineer" class="text">Engineer</label>
+                                <input type="checkbox" class="checkbox" id="others" name="others" value="Others">
+                                <label for="others" class="text">Others</label>
+                            </div>
+                        </div>
+                        <div class="salary-content">
+                            <label for="salary" class="label-text">Choose your salary (between 300000 to 500000):</label>
+                            <input type="range" class="input" id="salary" name="salary" min="300000" max="500000" step="100" value="500000">
+                            <output class="salary-output text" for="salary">500000</output>
                         </div>
                     </div>
                 </form>
