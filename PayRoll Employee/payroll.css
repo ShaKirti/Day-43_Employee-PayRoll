@@ -41,10 +41,9 @@ div>span{
 .item{
     background-color: rgb(244, 245, 243);
     width: 80vw;
-    height: 80vh;
-    margin: 2em 10em;
-    padding: 2em;
-    padding-left: 11em;
+    height: auto;
+    margin: 3em 7em;
+    padding: 2em 2em 2em 7em;
     text-align: left;
 }
 
@@ -140,4 +139,18 @@ div>span{
 }
 .salary-output{
     padding-left: 24px;
+}
+
+/* Start Date styling */
+.date-content{
+    display: flex;
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto'; */
+    font-weight: lighter;
+}
+#day, #month, #year{
+    padding: 3px;
+    border-radius: 9px;
+    margin: 0 57px;
 }
