@@ -8,7 +8,7 @@
 /* Main body */
 body{
     background-color: rgba(245, 214, 214, 0.767) !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     font-weight: bolder;
     font-size: large;
 }
