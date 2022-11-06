@@ -218,3 +218,119 @@ div>span{
 .resetBtn:hover{
     background-color: #809072 !important;
 }
+
+
+/* Media queries */
+@media only screen and (max-width: 960px) {
+    .cancelBtn{
+        margin-left: 0px;
+    }
+    .form{
+        width: 85%;
+        padding: 44px 20px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .form{
+        margin-top: 10px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .submit-reset{
+        width: 100%;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .name{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    #name{
+        width: 30vw;
+        margin-top: 1em;
+    }
+    .profile-radio-content{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    .header-content{
+        width: 50em;
+        /* text-align: center; */
+    }
+    .logo-content{
+        padding-left: 5em;
+    }
+    #item-1{
+        margin: 1em 0 0 0;
+        height: 340%;
+        width: 140%;
+    }
+    .gender-content{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    .label-text{
+        display: block;
+        padding-top: 1em;
+    }
+    #img1,#img2{
+        display: block;
+        /* padding: 10px; */
+        align-items: center;
+    }
+    #gender1,#gender2{
+        display: block;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .department-content{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        /* margin: 6em; */
+    }
+    .depart{
+        display: flex;
+        flex-direction: column;
+        margin-top: .5em;
+    }
+    .checkbox{
+        margin-top: 1em;
+    }
+    .salary-content{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    #salary{ margin: 1em 0 1em 0;}
+    /* .salary-output{} */
+    .date-content{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    #day,#month,#year{display: block; margin: 1em 0 1em 0;}
+    .note-content{
+        display: flex;
+        flex-direction: column;
+        width: 30%; 
+    }
+    #notes{margin-top: 1em;}
+    .btns{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    }
+    /* .resetBtn{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+    } */
+}
