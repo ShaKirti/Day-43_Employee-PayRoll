@@ -7,7 +7,7 @@
 
 /* Main body */
 body{
-    background-color: rgba(245, 214, 214, 0.767);
+    background-color: rgba(245, 214, 214, 0.767) !important;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     font-size: large;
@@ -15,7 +15,7 @@ body{
 
 /* Employee payroll div */
 .header-content{
-    background-color: #fff;
+    background-color: #fff !important;
     padding-top: .7em;
     padding-bottom: .7em;
 }
@@ -28,7 +28,7 @@ div{
     align-items: center;
 }
 div>span{
-    color: rgb(64, 240, 64);
+    color: rgb(64, 240, 64) !important;
 }
 
 /* payroll-form div */
@@ -39,10 +39,10 @@ div>span{
     flex-direction: column;
 }
 .item{
-    background-color: rgb(244, 245, 243);
+    background-color: rgb(244, 245, 243) !important;
     width: 80vw;
-    height: auto;
-    margin: 3em 7em;
+    height: 135vh;
+    margin: 1.5em 7em;
     padding: 2em 2em 2em 7em;
     text-align: left;
 }
@@ -58,7 +58,7 @@ div>span{
     font-size: medium;
 }
 #name{
-    margin-left: 3.2em;
+    margin-left: 6.2em;
     width: 44vw;
     height: 5.8vh;
     border-radius: 5px;
@@ -114,7 +114,7 @@ div>span{
 .department-content{
     display: flex;
     margin-top: 3em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     /* font-family: 'Roboto'; */
     font-weight: lighter;
 }
@@ -130,7 +130,7 @@ div>span{
 .salary-content{
     display: flex;
     margin-top: 3em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     /* font-family: 'Roboto'; */
     font-weight: lighter;
 }
@@ -145,7 +145,7 @@ div>span{
 .date-content{
     display: flex;
     margin-top: 3em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     /* font-family: 'Roboto'; */
     font-weight: lighter;
 }
@@ -153,4 +153,68 @@ div>span{
     padding: 3px;
     border-radius: 9px;
     margin: 0 57px;
+}
+
+/* Notes styling */
+
+.note-content{
+    display: flex;
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif !important;
+    /* font-family: 'Roboto'; */
+    font-weight: lighter;
+}
+.inputnotes{
+    height: 100px;
+    align-items: center;
+    min-width: 65%;
+    margin-left: 6.5em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Buttons Styling */
+.btns{
+    display: flex;
+    
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.Btn{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 0px;
+    color: rgb(29, 28, 28) !important;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px 7px;
+    border: 1px solid #809072 !important;
+    cursor: pointer;
+}
+.cancelBtn{
+    text-decoration: none;
+    text-align: center;
+}
+.submitBtn{
+    /* border: none; */
+    margin-top: 3em;
+    border-radius: 10px;
+    background-color: #f5f5f5 !important;
+    margin-right: 30px;
+}
+.submitBtn:hover{
+    background-color: rgb(98, 233, 98) !important;
+}
+.resetBtn{
+    /* border: none; */
+    margin-top: 3em;
+    border-radius: 10px;
+}
+.resetBtn:hover{
+    background-color: #809072 !important;
 }
